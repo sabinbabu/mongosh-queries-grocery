@@ -13,3 +13,5 @@
 <code>db.products.updateOne({name:'Cavendish Banana'},{$set:{price:6.00,quantity:30}})</code>
 
 <code>db.products.findOne({name:'Cavendish Banana'})</code>
+
+<code>db.products.find({quantity:{$lt:5}})</code>
