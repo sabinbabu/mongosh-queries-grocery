@@ -15,3 +15,5 @@
 <code>db.products.findOne({name:'Cavendish Banana'})</code>
 
 <code>db.products.find({quantity:{$lt:5}})</code>
+
+<code>db.products.deleteOne({name:'Tamar Valley Dairy Kids Greek Yoghurt Pouch Vanilla'})</code>
