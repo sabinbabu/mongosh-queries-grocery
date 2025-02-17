@@ -82,3 +82,13 @@
 <code>db.customers.deleteOne({name:'Olivia Brown'})</code>
 
 ![Delete](https://i.postimg.cc/HnB8KMmM/Screenshot-2025-02-16-at-7-20-24-pm.png)
+
+## 11. Insert one record to collection
+
+<code>db.customers.insertOne({
+"name": "Ava Davis",
+"phone": "+61 419 654 987",
+"money_spent": 560.60,
+"address": "876 Perth Lane, Perth, WA 6000",
+"join_date": "2024-01-10"
+})</code>
