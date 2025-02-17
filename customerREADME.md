@@ -63,13 +63,13 @@
 
 <code>db.customers.updateOne({name:'Emily Johnson'},{$set:{"join_date": "2023-08-15"}})</code>
 
-<!-- ![Update](https://i.postimg.cc/BZVqhN9g/Screenshot-2025-02-16-at-7-27-42-pm.png)
+![Update](https://i.postimg.cc/BZVqhN9g/Screenshot-2025-02-16-at-7-27-42-pm.png)
 
-## 8. Find product with name 'Cavendish Banana'
+## 8. Find customer with name 'Emily Johnson'
 
-<code>db.products.findOne({name:'Cavendish Banana'})</code>
+<code>db.customers.findOne(name:'Emily Johnson')</code>
 
-![Read](https://i.postimg.cc/gJ40kP7F/Screenshot-2025-02-16-at-7-25-06-pm.png)
+<!-- ![Read](https://i.postimg.cc/gJ40kP7F/Screenshot-2025-02-16-at-7-25-06-pm.png)
 
 ## 9. Find products with quantity amount less than 5.
 
