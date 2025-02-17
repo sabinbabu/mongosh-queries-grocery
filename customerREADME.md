@@ -8,13 +8,18 @@
 
 <code>show collections</code>
 
-<!-- ![Collections](https://i.postimg.cc/139sXdpy/Screenshot-2025-02-16-at-7-34-41-pm.png)
+![Collections](https://i.postimg.cc/139sXdpy/Screenshot-2025-02-16-at-7-34-41-pm.png)
 
 ## 3. Insert one record to collection
 
-<code>db.products.insertOne({name:'Cavendish Banana'})</code>
+<code>db.customers.insertOne({
+"name": "Emily Johnson",
+"phone": "+61 407 123 456",
+"money_spent": 350.75,
+"address": "1234 Sydney Road, Sydney, NSW 2000",
+})</code>
 
-![Create](https://i.postimg.cc/6379wGCR/Screenshot-2025-02-16-at-7-33-49-pm.png)
+<!-- ![Create](https://i.postimg.cc/6379wGCR/Screenshot-2025-02-16-at-7-33-49-pm.png)
 
 ## 4. Read all available records in document
 
