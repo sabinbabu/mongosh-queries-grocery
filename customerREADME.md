@@ -19,13 +19,13 @@
 "address": "1234 Sydney Road, Sydney, NSW 2000",
 })</code>
 
-<!-- ![Create](https://i.postimg.cc/6379wGCR/Screenshot-2025-02-16-at-7-33-49-pm.png)
+![Create](https://i.postimg.cc/6379wGCR/Screenshot-2025-02-16-at-7-33-49-pm.png)
 
 ## 4. Read all available records in document
 
-<code>db.products.find()</code>
+<code>db.customers.find()</code>
 
-![Read](https://i.postimg.cc/W41NWy35/Screenshot-2025-02-16-at-7-32-44-pm.png)
+<!-- ![Read](https://i.postimg.cc/W41NWy35/Screenshot-2025-02-16-at-7-32-44-pm.png)
 
 ## 5. Insert multiple records to collection
 
