@@ -51,13 +51,13 @@
 "join_date": "2020-04-25"
 }])</code>
 
-<!-- ![Create](https://i.postimg.cc/MKB89SY6/Screenshot-2025-02-16-at-7-30-18-pm.png)
+![Create](https://i.postimg.cc/MKB89SY6/Screenshot-2025-02-16-at-7-30-18-pm.png)
 
-## 6. Return array of keys from records with key 'name'
+## 6. Find customers whose address is Sydney
 
-<code>db.products.distinct('name')</code>
+<code>db.customers.find({"address": /Sydney/i})</code>
 
-![Read](https://i.postimg.cc/5yYMdddm/Screenshot-2025-02-16-at-7-29-08-pm.png)
+<!-- ![Read](https://i.postimg.cc/5yYMdddm/Screenshot-2025-02-16-at-7-29-08-pm.png)
 
 ## 7. Update a record with name 'Cavendish Banana', added price and quantity field to record.
 
