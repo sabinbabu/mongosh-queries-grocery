@@ -57,13 +57,13 @@
 
 <code>db.customers.find({"address": /Sydney/i})</code>
 
-<!-- ![Read](https://i.postimg.cc/5yYMdddm/Screenshot-2025-02-16-at-7-29-08-pm.png)
+![Read](https://i.postimg.cc/5yYMdddm/Screenshot-2025-02-16-at-7-29-08-pm.png)
 
-## 7. Update a record with name 'Cavendish Banana', added price and quantity field to record.
+## 7. Update a record with name 'Emily Johnson' and add join_date field to record.
 
-<code>db.products.updateOne({name:'Cavendish Banana'},{$set:{price:6.00,quantity:30}})</code>
+<code>db.customers.updateOne({name:'Emily Johnson'},{$set:{"join_date": "2023-08-15"}})</code>
 
-![Update](https://i.postimg.cc/BZVqhN9g/Screenshot-2025-02-16-at-7-27-42-pm.png)
+<!-- ![Update](https://i.postimg.cc/BZVqhN9g/Screenshot-2025-02-16-at-7-27-42-pm.png)
 
 ## 8. Find product with name 'Cavendish Banana'
 
