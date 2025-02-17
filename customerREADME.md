@@ -75,10 +75,10 @@
 
 <code>db.customers.find({money_spent:{$gt:300.00}})</code>
 
-<!-- ![Read](https://i.postimg.cc/cHcvg3rz/Screenshot-2025-02-16-at-7-22-42-pm.png)
+![Read](https://i.postimg.cc/cHcvg3rz/Screenshot-2025-02-16-at-7-22-42-pm.png)
 
 ## 10. Delete record with a specific key
 
-<code>db.products.deleteOne({name:'Tamar Valley Dairy Kids Greek Yoghurt Pouch Vanilla'})</code>
+<code>db.customers.deleteOne({name:'Olivia Brown'})</code>
 
-![Delete](https://i.postimg.cc/HnB8KMmM/Screenshot-2025-02-16-at-7-20-24-pm.png) -->
+![Delete](https://i.postimg.cc/HnB8KMmM/Screenshot-2025-02-16-at-7-20-24-pm.png)
