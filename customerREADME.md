@@ -25,13 +25,33 @@
 
 <code>db.customers.find()</code>
 
-<!-- ![Read](https://i.postimg.cc/W41NWy35/Screenshot-2025-02-16-at-7-32-44-pm.png)
+![Read](https://i.postimg.cc/W41NWy35/Screenshot-2025-02-16-at-7-32-44-pm.png)
 
 ## 5. Insert multiple records to collection
 
-<code>db.products.insertMany([{name:'Lindt Lindor Assorted Chocolate Box',price:13.00,quantity:10},{name:'Magnum Mini Classic Frozen Dessert Sticks 6 Pack',price:6.00,quantity:20}])</code>
+<code>db.customers.insertMany([ {
+"name": "Liam Williams",
+"phone": "+61 418 654 321",
+"money_spent": 220.50,
+"address": "789 Melbourne Street, Melbourne, VIC 3000",
+"join_date": "2022-10-05"
+},
+{
+"name": "Olivia Brown",
+"phone": "+61 407 987 654",
+"money_spent": 415.90,
+"address": "456 Adelaide Avenue, Adelaide, SA 5000",
+"join_date": "2021-12-01"
+},
+{
+"name": "Ethan Smith",
+"phone": "+61 413 123 789",
+"money_spent": 128.30,
+"address": "321 Brisbane Drive, Brisbane, QLD 4000",
+"join_date": "2020-04-25"
+}])</code>
 
-![Create](https://i.postimg.cc/MKB89SY6/Screenshot-2025-02-16-at-7-30-18-pm.png)
+<!-- ![Create](https://i.postimg.cc/MKB89SY6/Screenshot-2025-02-16-at-7-30-18-pm.png)
 
 ## 6. Return array of keys from records with key 'name'
 
