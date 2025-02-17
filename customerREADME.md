@@ -4,11 +4,11 @@
 
 ![Create](https://i.postimg.cc/905jhgm5/Screenshot-2025-02-16-at-7-35-50-pm.png)
 
-<!-- ## 2. Show list of available collections in database
+## 2. Show list of available collections in database
 
 <code>show collections</code>
 
-![Collections](https://i.postimg.cc/139sXdpy/Screenshot-2025-02-16-at-7-34-41-pm.png)
+<!-- ![Collections](https://i.postimg.cc/139sXdpy/Screenshot-2025-02-16-at-7-34-41-pm.png)
 
 ## 3. Insert one record to collection
 
