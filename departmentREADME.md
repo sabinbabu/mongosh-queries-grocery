@@ -17,13 +17,13 @@
 "manager_name": "Alice Johnson"
 })</code>
 
-<!-- ![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
+![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
 
 ## 4. Read all available records in document
 
 <code>db.customers.find()</code>
 
-![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
+<!-- ![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
 
 ## 5. Insert multiple records to collection
 
