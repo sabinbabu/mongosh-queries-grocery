@@ -49,13 +49,13 @@
 
 <code>db.departments.distinct("department_name")</code>
 
-<!-- ![Read](https://i.postimg.cc/FsHd0tHP/Screenshot-2025-02-17-at-2-46-02-pm.png)
+![Read](https://i.postimg.cc/FsHd0tHP/Screenshot-2025-02-17-at-2-46-02-pm.png)
 
-## 7. Update a record with name 'Emily Johnson' and add join_date field to record.
+## 7. Update a record with manager name 'Alice Johnson' and add manager_start_date field to record.
 
-<code>db.customers.updateOne({name:'Emily Johnson'},{$set:{"join_date": "2023-08-15"}})</code>
+<code>db.departments.updateOne({manager_name:'Alice Johnson'},{$set:{ "manager_start_date": "2022-03-15"}})</code>
 
-![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+<!-- ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
 ## 8. Find customer with name 'Emily Johnson'
 
