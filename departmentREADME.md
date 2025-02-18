@@ -57,22 +57,16 @@
 
 ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
-## 8. Find customer with name 'Alice Johnson'
+## 8. Find department with name 'Alice Johnson'
 
 <code>db.departments.find({manager_name:'Alice Johnson'})
 </code>
 
-<!-- ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
-
-## 9. Find customers with money_spent greater than 300.
-
-<code>db.customers.find({money_spent:{$gt:300.00}})</code>
-
-![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
+![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
 ## 10. Delete record with a specific key
 
-<code>db.customers.deleteOne({name:'Olivia Brown'})</code>
+<code>db.departments.deleteOne({department_name:'Meat'})</code>
 
 ![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
 
@@ -86,4 +80,4 @@
 "join_date": "2024-01-10"
 })</code>
 
-![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png) -->
+![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png)
