@@ -64,7 +64,7 @@
 
 ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
-## 10. Delete record with a specific key
+## 9. Delete record with a specific key
 
 <code>db.departments.deleteOne({department_name:'Meat'})</code>
 
@@ -72,12 +72,9 @@
 
 ## 11. Insert one record to collection
 
-<code>db.customers.insertOne({
-"name": "Ava Davis",
-"phone": "+61 419 654 987",
-"money_spent": 560.60,
-"address": "876 Perth Lane, Perth, WA 6000",
-"join_date": "2024-01-10"
+<code>db.departments.insertOne({"department_name": "Frozen Foods",
+"manager_name": "Emily Clark",
+"manager_start_date": "2023-01-20"
 })</code>
 
 ![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png)
