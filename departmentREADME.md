@@ -55,13 +55,14 @@
 
 <code>db.departments.updateOne({manager_name:'Alice Johnson'},{$set:{ "manager_start_date": "2022-03-15"}})</code>
 
-<!-- ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
-## 8. Find customer with name 'Emily Johnson'
+## 8. Find customer with name 'Alice Johnson'
 
-<code>db.customers.findOne(name:'Emily Johnson')</code>
+<code>db.departments.find({manager_name:'Alice Johnson'})
+</code>
 
-![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+<!-- ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
 ## 9. Find customers with money_spent greater than 300.
 
