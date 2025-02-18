@@ -23,33 +23,27 @@
 
 <code>db.customers.find()</code>
 
-<!-- ![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
+![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
 
 ## 5. Insert multiple records to collection
 
-<code>db.customers.insertMany([ {
-"name": "Liam Williams",
-"phone": "+61 418 654 321",
-"money_spent": 220.50,
-"address": "789 Melbourne Street, Melbourne, VIC 3000",
-"join_date": "2022-10-05"
+<code>db.departments.insertMany([ {
+"department_name": "Deli",
+"manager_name": "Mark Smith",
+"manager_start_date": "2020-08-01"
 },
 {
-"name": "Olivia Brown",
-"phone": "+61 407 987 654",
-"money_spent": 415.90,
-"address": "456 Adelaide Avenue, Adelaide, SA 5000",
-"join_date": "2021-12-01"
+"department_name": "Bakery",
+"manager_name": "Sarah Lee",
+"manager_start_date": "2021-06-10"
 },
 {
-"name": "Ethan Smith",
-"phone": "+61 413 123 789",
-"money_spent": 128.30,
-"address": "321 Brisbane Drive, Brisbane, QLD 4000",
-"join_date": "2020-04-25"
+"department_name": "Meat",
+"manager_name": "John Davis",
+"manager_start_date": "2019-11-05"
 }])</code>
 
-![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
+<!-- ![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
 
 ## 6. Find customers whose address is Sydney
 
