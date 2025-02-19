@@ -79,13 +79,14 @@
 
 <code>db.employees.find({salary: {$gt:850000}})</code>
 
-<!-- ![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
+![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
 
-## 10. Delete record with a specific key
+## 11. Delete record with a specific key
 
-<code>db.customers.deleteOne({name:'Olivia Brown'})</code>
+<code>db.employees.deleteOne({employee_name: 'Olivia Harris'})
+</code>
 
-![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
+<!-- ![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
 
 ## 11. Insert one record to collection
 
