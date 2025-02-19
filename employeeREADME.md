@@ -2,13 +2,13 @@
 
 <code>db.createCollection('employees')</code>
 
-![Create](https://i.postimg.cc/Cxd8pyyZ/Screenshot-2025-02-17-at-2-19-58-pm.png)
+![Create](https://i.postimg.cc/j2V2M56b/Screenshot-2025-02-19-at-1-45-37-pm.png)
 
 ## 2. Show list of available collections in database
 
 <code>show collections</code>
 
-![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
+![Collections](https://i.postimg.cc/bw6vKL0L/Screenshot-2025-02-19-at-1-46-33-pm.png)
 
 ## 3. Insert one record to collection
 
@@ -17,13 +17,13 @@
 "salary": 75000,
 "join_date": "2020-02-10"})</code>
 
-![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
+![Create](https://i.postimg.cc/VsjkYzBJ/Screenshot-2025-02-19-at-1-48-40-pm.png)
 
 ## 4. Read all available records in document
 
 <code>db.customers.find()</code>
 
-![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
+![Read](https://i.postimg.cc/0NT9s4zG/Screenshot-2025-02-19-at-1-49-39-pm.png)
 
 ## 5. Insert multiple records to collection
 
@@ -49,44 +49,44 @@
 "address": "78 Murray Street, Perth, WA 6000, Australia"
 },])</code>
 
-![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
+![Create](https://i.postimg.cc/Xq8W97Qx/Screenshot-2025-02-19-at-1-51-47-pm.png)
 
 ## 6. Find customers whose address is Perth
 
 <code>db.employees.find({address : /Perth/i})</code>
 
-![Read](https://i.postimg.cc/FsHd0tHP/Screenshot-2025-02-17-at-2-46-02-pm.png)
+![Read](https://i.postimg.cc/VNM3jkNM/Screenshot-2025-02-19-at-2-00-45-pm.png)
 
 ## 7. Update a record with name 'John Williams' and add address field to record.
 
 <code>db.employees.updateOne({employee_name: 'John Williams'},{$set:{"address": "15 King Street, Sydney, NSW 2000, Australia"}})</code>
 
-![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+![Update](https://i.postimg.cc/C1g9JpZ2/Screenshot-2025-02-19-at-2-17-01-pm.png)
 
 ## 8. Find employee with name 'John Williams''
 
 <code>db.employees.findOne({employee_name: 'John Williams'})</code>
 
-![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+![Read](https://i.postimg.cc/rmN3PZxw/Screenshot-2025-02-19-at-2-20-18-pm.png)
 
 ## 9. Find employee with name 'John Williams' with incorrect key name
 
 <code>db.employees.findOne({name: 'John Williams'})</code>
 
-![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+![Read](https://i.postimg.cc/BbZk95Bc/Screenshot-2025-02-19-at-2-20-29-pm.png)
 
 ## 10. Find employees with salary greater than 850000.
 
 <code>db.employees.find({salary: {$gt:850000}})</code>
 
-![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
+![Read](https://i.postimg.cc/Vs429Tz7/Screenshot-2025-02-19-at-2-22-03-pm.png)
 
 ## 11. Delete record with a specific key
 
 <code>db.employees.deleteOne({employee_name: 'Olivia Harris'})
 </code>
 
-![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
+![Delete](https://i.postimg.cc/Kvzw0Nzm/Screenshot-2025-02-19-at-2-23-02-pm.png)
 
 ## 12. Insert one record to collection
 
@@ -98,4 +98,4 @@
 "address": "27 St Kilda Road, Adelaide, SA 5000, Australia"
 })</code>
 
-![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png)
+![Create](https://i.postimg.cc/9fGnDgxY/Screenshot-2025-02-19-at-2-24-28-pm.png)
