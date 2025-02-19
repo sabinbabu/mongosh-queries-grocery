@@ -23,33 +23,33 @@
 
 <code>db.customers.find()</code>
 
-<!-- ![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
+![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
 
 ## 5. Insert multiple records to collection
 
-<code>db.customers.insertMany([ {
-"name": "Liam Williams",
-"phone": "+61 418 654 321",
-"money_spent": 220.50,
-"address": "789 Melbourne Street, Melbourne, VIC 3000",
-"join_date": "2022-10-05"
+<code>db.employees.insertMany([ {
+"employee_name": "Sophie Brown",
+"phone_number": "+61 408 123 456",
+"salary": 82000,
+"join_date": "2019-11-20",
+"address": "42 Darling Road, Melbourne, VIC 3000, Australia"
 },
 {
-"name": "Olivia Brown",
-"phone": "+61 407 987 654",
-"money_spent": 415.90,
-"address": "456 Adelaide Avenue, Adelaide, SA 5000",
-"join_date": "2021-12-01"
+"employee_name": "Liam Davis",
+"phone_number": "+61 491 234 567",
+"salary": 95000,
+"join_date": "2021-06-15",
+"address": "9 Queen Street, Brisbane, QLD 4000, Australia"
 },
 {
-"name": "Ethan Smith",
-"phone": "+61 413 123 789",
-"money_spent": 128.30,
-"address": "321 Brisbane Drive, Brisbane, QLD 4000",
-"join_date": "2020-04-25"
-}])</code>
+"employee_name": "Olivia Harris",
+"phone_number": "+61 421 567 890",
+"salary": 88000,
+"join_date": "2018-07-05",
+"address": "78 Murray Street, Perth, WA 6000, Australia"
+},])</code>
 
-![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
+<!-- ![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
 
 ## 6. Find customers whose address is Sydney
 
