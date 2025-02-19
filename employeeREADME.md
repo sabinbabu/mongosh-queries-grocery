@@ -65,15 +65,21 @@
 
 ## 8. Find customer with name 'John Williams''
 
-<code>db.customers.findOne(name:'John Williams')</code>
+<code>db.employees.findOne({employee_name: 'John Williams'})</code>
 
-<!-- ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+
+## 8. Find customer with name 'John Williams' with incorrect key name
+
+<code>db.employees.findOne({name: 'John Williams'})</code>
+
+![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
 ## 9. Find customers with money_spent greater than 300.
 
 <code>db.customers.find({money_spent:{$gt:300.00}})</code>
 
-![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
+<!-- ![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
 
 ## 10. Delete record with a specific key
 
