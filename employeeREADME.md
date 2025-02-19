@@ -63,21 +63,21 @@
 
 ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
-## 8. Find customer with name 'John Williams''
+## 8. Find employee with name 'John Williams''
 
 <code>db.employees.findOne({employee_name: 'John Williams'})</code>
 
 ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
-## 8. Find customer with name 'John Williams' with incorrect key name
+## 9. Find employee with name 'John Williams' with incorrect key name
 
 <code>db.employees.findOne({name: 'John Williams'})</code>
 
 ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
-## 9. Find customers with money_spent greater than 300.
+## 10. Find employees with salary greater than 850000.
 
-<code>db.customers.find({money_spent:{$gt:300.00}})</code>
+<code>db.employees.find({salary: {$gt:850000}})</code>
 
 <!-- ![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
 
