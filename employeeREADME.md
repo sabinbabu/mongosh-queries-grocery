@@ -8,18 +8,16 @@
 
 <code>show collections</code>
 
-<!-- ![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
+![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
 
 ## 3. Insert one record to collection
 
-<code>db.customers.insertOne({
-"name": "Emily Johnson",
-"phone": "+61 407 123 456",
-"money_spent": 350.75,
-"address": "1234 Sydney Road, Sydney, NSW 2000",
-})</code>
+<code>db.employees.insertOne({"employee_name": "John Williams",
+"phone_number": "+61 412 345 678",
+"salary": 75000,
+"join_date": "2020-02-10"})</code>
 
-![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
+<!-- ![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
 
 ## 4. Read all available records in document
 
