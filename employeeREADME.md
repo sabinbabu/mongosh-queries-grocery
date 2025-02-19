@@ -55,13 +55,13 @@
 
 <code>db.employees.find({address : /Perth/i})</code>
 
-<!-- ![Read](https://i.postimg.cc/FsHd0tHP/Screenshot-2025-02-17-at-2-46-02-pm.png)
+![Read](https://i.postimg.cc/FsHd0tHP/Screenshot-2025-02-17-at-2-46-02-pm.png)
 
-## 7. Update a record with name 'Emily Johnson' and add join_date field to record.
+## 7. Update a record with name 'John Williams' and add address field to record.
 
-<code>db.customers.updateOne({name:'Emily Johnson'},{$set:{"join_date": "2023-08-15"}})</code>
+<code>db.employees.updateOne({employee_name: 'John Williams'},{$set:{"address": "15 King Street, Sydney, NSW 2000, Australia"}})</code>
 
-![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+<!-- ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
 ## 8. Find customer with name 'Emily Johnson'
 
