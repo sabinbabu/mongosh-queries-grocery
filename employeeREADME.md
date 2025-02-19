@@ -86,16 +86,16 @@
 <code>db.employees.deleteOne({employee_name: 'Olivia Harris'})
 </code>
 
-<!-- ![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
+![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
 
-## 11. Insert one record to collection
+## 12. Insert one record to collection
 
-<code>db.customers.insertOne({
-"name": "Ava Davis",
-"phone": "+61 419 654 987",
-"money_spent": 560.60,
-"address": "876 Perth Lane, Perth, WA 6000",
-"join_date": "2024-01-10"
+<code>db.employees.insertOne( {
+"employee_name": "Ethan Clark",
+"phone_number": "+61 438 345 678",
+"salary": 105000,
+"join_date": "2022-01-19",
+"address": "27 St Kilda Road, Adelaide, SA 5000, Australia"
 })</code>
 
-![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png) -->
+![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png)
