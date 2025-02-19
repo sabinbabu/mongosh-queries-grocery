@@ -61,13 +61,13 @@
 
 <code>db.employees.updateOne({employee_name: 'John Williams'},{$set:{"address": "15 King Street, Sydney, NSW 2000, Australia"}})</code>
 
-<!-- ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
-## 8. Find customer with name 'Emily Johnson'
+## 8. Find customer with name 'John Williams''
 
-<code>db.customers.findOne(name:'Emily Johnson')</code>
+<code>db.customers.findOne(name:'John Williams')</code>
 
-![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+<!-- ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
 ## 9. Find customers with money_spent greater than 300.
 
