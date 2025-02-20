@@ -61,13 +61,13 @@
 
 <code>db.suppliers.updateOne({supplier_name:'Aussie Produce Supplies'},{$set:{"supply_product": ["Fresh Vegetables", "Fruits", "Herbs"]}})</code>
 
-<!-- ![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
 
-## 8. Find customer with name 'Emily Johnson'
+## 8. Find supplier with name 'Aussie Produce Supplies'
 
-<code>db.customers.findOne({name:'Emily Johnson'})</code>
+<code>db.suppliers.findOne({supplier_name:'Aussie Produce Supplies'})</code>
 
-![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+<!-- ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
 ## 9. Find customers with money_spent greater than 300.
 
