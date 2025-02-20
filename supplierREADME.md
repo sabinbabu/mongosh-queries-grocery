@@ -73,16 +73,15 @@
 
 <code>db.suppliers.deleteOne({name:'Aussie Produce Supplies'})</code>
 
-<!-- ![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
+![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
 
 ## 11. Insert one record to collection
 
-<code>db.customers.insertOne({
-"name": "Ava Davis",
-"phone": "+61 419 654 987",
-"money_spent": 560.60,
-"address": "876 Perth Lane, Perth, WA 6000",
-"join_date": "2024-01-10"
-})</code>
+<code>db.suppliers.insertOne({ "supplier_name": "Down Under Grocery Wholesale",
+"email": "wholesale@downundergrocery.com.au",
+"phone": "+61 4 5678 1234",
+"address": "101 Central Blvd, Adelaide, SA 5000",
+"supply_product": ["Canned Goods", "Spices", "Beverages"]})
+</code>
 
-![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png) -->
+![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png)
