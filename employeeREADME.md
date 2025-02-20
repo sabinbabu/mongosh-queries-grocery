@@ -21,7 +21,7 @@
 
 ## 4. Read all available records in document
 
-<code>db.customers.find()</code>
+<code>db.employees.find()</code>
 
 ![Read](https://i.postimg.cc/0NT9s4zG/Screenshot-2025-02-19-at-1-49-39-pm.png)
 
