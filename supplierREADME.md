@@ -8,18 +8,16 @@
 
 <code>show collections</code>
 
-<!-- ![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
+![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
 
 ## 3. Insert one record to collection
 
-<code>db.customers.insertOne({
-"name": "Emily Johnson",
-"phone": "+61 407 123 456",
-"money_spent": 350.75,
-"address": "1234 Sydney Road, Sydney, NSW 2000",
-})</code>
+<code>db.suppliers.insertOne({"supplier_name": "Aussie Produce Supplies",
+"email": "contact@aussieproduce.com.au",
+"phone": "+61 2 9123 4567",
+"address": "123 Green Valley Rd, Sydney, NSW 2000"})</code>
 
-![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
+<!-- ![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
 
 ## 4. Read all available records in document
 
