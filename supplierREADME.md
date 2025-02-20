@@ -2,13 +2,13 @@
 
 <code>db.createCollection('suppliers')</code>
 
-![Create](https://i.postimg.cc/Cxd8pyyZ/Screenshot-2025-02-17-at-2-19-58-pm.png)
+![Create](https://i.postimg.cc/0ykPH1hh/Screenshot-2025-02-20-at-1-11-51-pm.png)
 
 ## 2. Show list of available collections in database
 
 <code>show collections</code>
 
-![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
+![Collections](https://i.postimg.cc/zfMNBb31/Screenshot-2025-02-20-at-1-12-07-pm.png)
 
 ## 3. Insert one record to collection
 
@@ -17,13 +17,13 @@
 "phone": "+61 2 9123 4567",
 "address": "123 Green Valley Rd, Sydney, NSW 2000"})</code>
 
-![Create](https://i.postimg.cc/k4PRSB28/Screenshot-2025-02-17-at-2-23-58-pm.png)
+![Create](https://i.postimg.cc/Y0Bw651n/Screenshot-2025-02-20-at-1-12-48-pm.png)
 
 ## 4. Read all available records in document
 
 <code>db.customers.find()</code>
 
-![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
+![Read](https://i.postimg.cc/SxJtKZ9J/Screenshot-2025-02-20-at-1-13-09-pm.png)
 
 ## 5. Insert multiple records to collection
 
@@ -49,31 +49,31 @@
 "supply_product": ["Dairy Products", "Eggs", "Fresh Meats"]
 }])</code>
 
-![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
+![Create](https://i.postimg.cc/PJXSnKhf/Screenshot-2025-02-20-at-1-14-03-pm.png)
 
 ## 6. Find suppliers whose supply product are eggs
 
 <code>db.suppliers.find({supply_product: /eggs/i})</code>
 
-![Read](https://i.postimg.cc/FsHd0tHP/Screenshot-2025-02-17-at-2-46-02-pm.png)
+![Read](https://i.postimg.cc/44P8QCbY/Screenshot-2025-02-20-at-1-16-02-pm.png)
 
 ## 7. Update a record with name 'Aussie Produce Supplies' and add supply_product field to record.
 
 <code>db.suppliers.updateOne({supplier_name:'Aussie Produce Supplies'},{$set:{"supply_product": ["Fresh Vegetables", "Fruits", "Herbs"]}})</code>
 
-![Update](https://i.postimg.cc/13g8Yp6w/Screenshot-2025-02-17-at-2-47-58-pm.png)
+![Update](https://i.postimg.cc/7YQmjgRD/Screenshot-2025-02-20-at-1-17-20-pm.png)
 
 ## 8. Find supplier with name 'Aussie Produce Supplies'
 
 <code>db.suppliers.findOne({supplier_name:'Aussie Produce Supplies'})</code>
 
-![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+![Read](https://i.postimg.cc/1zDBgb35/Screenshot-2025-02-20-at-1-19-24-pm.png)
 
 ## 9. Delete record with a specific key
 
 <code>db.suppliers.deleteOne({name:'Aussie Produce Supplies'})</code>
 
-![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
+![Delete](https://i.postimg.cc/ZRcLH3NG/Screenshot-2025-02-20-at-1-20-15-pm.png)
 
 ## 11. Insert one record to collection
 
@@ -84,4 +84,4 @@
 "supply_product": ["Canned Goods", "Spices", "Beverages"]})
 </code>
 
-![Create](https://i.postimg.cc/y8rFD1hX/Screenshot-2025-02-17-at-2-51-46-pm.png)
+![Create](https://i.postimg.cc/jdCh6DS1/Screenshot-2025-02-20-at-1-20-43-pm.png)
