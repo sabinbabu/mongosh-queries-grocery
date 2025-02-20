@@ -1,4 +1,4 @@
-## 1. Create a new collection named 'products
+## 1. Create a new collection named 'products;
 
 <code>db.createCollection('products')</code>
 
