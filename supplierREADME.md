@@ -23,33 +23,33 @@
 
 <code>db.customers.find()</code>
 
-<!-- ![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
+![Read](https://i.postimg.cc/L5HqywB8/Screenshot-2025-02-17-at-2-24-23-pm.png)
 
 ## 5. Insert multiple records to collection
 
-<code>db.customers.insertMany([ {
-"name": "Liam Williams",
-"phone": "+61 418 654 321",
-"money_spent": 220.50,
-"address": "789 Melbourne Street, Melbourne, VIC 3000",
-"join_date": "2022-10-05"
+<code>db.suppliers.insertMany([{
+"supplier_name": "Outback Foods",
+"email": "sales@outbackfoods.com.au",
+"phone": "+61 3 9876 5432",
+"address": "45 Bushland Ave, Melbourne, VIC 3000",
+"supply_product": ["Organic Snacks", "Grains", "Dried Fruits"]
 },
 {
-"name": "Olivia Brown",
-"phone": "+61 407 987 654",
-"money_spent": 415.90,
-"address": "456 Adelaide Avenue, Adelaide, SA 5000",
-"join_date": "2021-12-01"
+"supplier_name": "Coastal Seafoods",
+"email": "info@coastalseafoods.com.au",
+"phone": "+61 8 5647 2389",
+"address": "78 Marine Drive, Perth, WA 6000",
+"supply_product": ["Fresh Seafood", "Frozen Fish", "Seafood Sauces"]
 },
 {
-"name": "Ethan Smith",
-"phone": "+61 413 123 789",
-"money_spent": 128.30,
-"address": "321 Brisbane Drive, Brisbane, QLD 4000",
-"join_date": "2020-04-25"
+"supplier_name": "Farm Fresh Foods",
+"email": "orders@farmfresh.com.au",
+"phone": "+61 7 3345 7788",
+"address": "29 Country Lane, Brisbane, QLD 4000",
+"supply_product": ["Dairy Products", "Eggs", "Fresh Meats"]
 }])</code>
 
-![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
+<!-- ![Create](https://i.postimg.cc/CMNnZMSB/Screenshot-2025-02-17-at-2-32-39-pm.png)
 
 ## 6. Find customers whose address is Sydney
 
