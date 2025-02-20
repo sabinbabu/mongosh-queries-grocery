@@ -75,7 +75,7 @@
 
 ![Delete](https://i.postimg.cc/ZRcLH3NG/Screenshot-2025-02-20-at-1-20-15-pm.png)
 
-## 11. Insert one record to collection
+## 10. Insert one record to collection
 
 <code>db.suppliers.insertOne({ "supplier_name": "Down Under Grocery Wholesale",
 "email": "wholesale@downundergrocery.com.au",
