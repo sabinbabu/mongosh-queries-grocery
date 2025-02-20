@@ -67,19 +67,13 @@
 
 <code>db.suppliers.findOne({supplier_name:'Aussie Produce Supplies'})</code>
 
-<!-- ![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
+![Read](https://i.postimg.cc/HkfrGV4K/Screenshot-2025-02-17-at-2-49-04-pm.png)
 
-## 9. Find customers with money_spent greater than 300.
+## 9. Delete record with a specific key
 
-<code>db.customers.find({money_spent:{$gt:300.00}})</code>
+<code>db.suppliers.deleteOne({name:'Aussie Produce Supplies'})</code>
 
-![Read](https://i.postimg.cc/xdMc9n6d/Screenshot-2025-02-17-at-2-50-03-pm.png)
-
-## 10. Delete record with a specific key
-
-<code>db.customers.deleteOne({name:'Olivia Brown'})</code>
-
-![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
+<!-- ![Delete](https://i.postimg.cc/d0kGdb4M/Screenshot-2025-02-17-at-2-50-58-pm.png)
 
 ## 11. Insert one record to collection
 
