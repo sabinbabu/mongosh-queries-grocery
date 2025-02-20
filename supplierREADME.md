@@ -2,13 +2,13 @@
 
 <code>db.createCollection('suppliers')</code>
 
-<!-- ![Create](https://i.postimg.cc/Cxd8pyyZ/Screenshot-2025-02-17-at-2-19-58-pm.png)
+![Create](https://i.postimg.cc/Cxd8pyyZ/Screenshot-2025-02-17-at-2-19-58-pm.png)
 
 ## 2. Show list of available collections in database
 
 <code>show collections</code>
 
-![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
+<!-- ![Collections](https://i.postimg.cc/k5btDxgq/Screenshot-2025-02-17-at-2-20-23-pm.png)
 
 ## 3. Insert one record to collection
 
